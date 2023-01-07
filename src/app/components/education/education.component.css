@@ -1,0 +1,42 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-family: 'Chivo Mono', monospace;
+}
+h3{
+    color: white;
+    font-family: 'Chivo Mono', monospace;
+}
+.txt{
+    color: aquamarine;
+    font-family: 'Chivo Mono', monospace;
+}
+.year{
+    color: magenta;
+    font-family: 'Chivo Mono', monospace;
+}
+#edu{
+    padding: 15px;
+}
+
+#unc{
+    background-color: white;
+    padding: 5px;
+    max-width: 180px;
+}
+
+#cnm{
+    background-color: white;
+    padding: 4px;
+}
+
+#fl{
+    background-color: white;
+    max-width: 126px;
+}
+

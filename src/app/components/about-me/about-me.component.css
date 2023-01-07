@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;400;700&display=swap');
+.row{
+    padding: 20px;
+}
+div{
+    background-color: black;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: bold;
+}
+p{
+    color: aquamarine;
+    font-family: 'Chivo Mono', monospace;
+}
+#nombre{
+    font-weight: bold;
+}
+
+/*Posición y tamaño de la foto de perfil*/
+@media (min-width: 576px){
+    #perfilphoto{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 600px;
+    }
+}
+@media (max-width: 575px){
+    #perfilphoto{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 35%;
+        top: 620px;
+    }
+}
