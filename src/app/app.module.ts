@@ -17,6 +17,7 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { interceptorProvider } from './service/interceptor-service';
+import { NewEducationComponent } from './components/education/new-education.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { interceptorProvider } from './service/interceptor-service';
     ProjectComponent,
     FooterComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    NewEducationComponent
   ],
   imports: [
     BrowserModule,
