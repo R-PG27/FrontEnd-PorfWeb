@@ -3,7 +3,7 @@
         <h1>Educación</h1>
 
         <div class="col-lg-2">
-            <button type="button" class="btn btn-dark" routerLink="/xxx" *ngIf="isLogged">
+            <button type="button" class="btn btn-dark" routerLink="/newedu" *ngIf="isLogged">
                 AÑADIR
             </button>
         </div>
@@ -12,7 +12,6 @@
         <div class="col-lg-11">
             <ul *ngFor="let Educacion of educacion">
                 <li>
-                    <img src={{Educacion.imgEdu}}>
                     <img src={{Educacion.imgEdu}}>
                     <h3>{{Educacion.nombreEdu}}</h3>
                     <p>{{Educacion.descripcionEdu}}</p>

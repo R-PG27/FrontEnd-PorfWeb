@@ -1,7 +1,27 @@
 <div class="container">
     <div class="row">
         <div>
-            <form (ngSubmit)="onCreate()" nova></form>
+            <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="nombreEdu">Establecimiento educativo</label>
+                    <input type="text" class="form-control" id="nombreEdu" name="nombreEdu" [(ngModel)]="nombreEdu" required>
+                </div>
+                <div class="form-group">
+                    <label for="descripcionEdu">Título</label>
+                    <input type="text" class="form-control" id="descripcionEdu" name="descripcionEdu" [(ngModel)]="descripcionEdu" required>
+                </div>
+                <div class="form-group">
+                    <label for="yearsEdu">Año/s</label>
+                    <input type="text" class="form-control" id="yearsEdu" name="yearsEdu" [(ngModel)]="yearsEdu" required>
+                </div>
+                <div class="form-group">
+                    <label for="imgEdu">Logo del establecimiento</label>
+                    <input type="file" class="form-control" id="imgEdu" name="imgEdu" [(ngModel)]="imgEdu">
+                </div>
+                <button type="button" class="btn btn-primary">
+                    Añadir
+                </button>
+            </form>
         </div>
     </div>
 </div>
